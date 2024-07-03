@@ -1,0 +1,7 @@
+shadow = QGraphicsDropShadowEffect()
+shadow.setBlurRadius(15)
+self.data_base.setGraphicsEffect(self.shadow)
+
+
+Form.setWindowFlag(Qt.FramelessWindowHint)
+Form.setAttribute(QtCore.Qt.WA_TranslucentBackground)
